@@ -1,0 +1,10 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
