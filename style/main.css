@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
@@ -7,4 +7,30 @@ h2 {
     margin-top: 2rem;
     border-bottom: 2px solid #ccc;
     padding-bottom: 0.5rem;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #131325;
+}
+
+.nav-link:hover {
+  color: #32443a !important;
+}
+
+.border-green {
+  border-color: #84fcd4 !important;
+}
+
+.custom-navbar {
+  background-color: #308f7a !important;
+}
+
+.profile-pic {
+  border-radius: 50%;
+    width: 250px;
 }
