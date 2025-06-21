@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
 <body class="bg-dark text-white">
@@ -15,7 +17,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md navbar-dark custom-navbar py-3 fixed-top border-bottom border-secondary">
     <div class="container">
-      <a class="navbar-brand fw-bold text-white" href="#">Estebankiito 🎸</a>
+      <a href="#main" class="navbar-brand fw-bold text-white" href="#">Estebankiito 🎸</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,19 +26,19 @@
         <ul class="navbar-nav gap-3">
           
           <li class="nav-item">
-            <a href="#" class="nav-link active text-white border-bottom border-2 border-purple">About me</a>
+            <a href="#about" class="nav-link active text-white  border-purple">About me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-white">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#channel" class="nav-link text-white">Channel</a>
-          </li>
+              <a href="#channel" class="nav-link text-white">Channel</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Projects</a>
+            </li>
           <li class="nav-item">
             <a href="#" class="nav-link text-white">Reviews</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-white">Contact</a>
+            <a href="#contact" class="nav-link text-white">Contact</a>
           </li>
         </ul>
       </div>
@@ -44,7 +46,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <main class="container d-flex flex-column justify-content-center align-items-center text-center vh-100 px-3">
+  <main id="main" class="container d-flex flex-column justify-content-center align-items-center text-center vh-100 px-3">
     <h1 class="display-5 fw-bold text-white">Hello World! I'm Esteban 👨🏻</h1>
     <p class="lead text-light mt-3" style="max-width: 600px;">
         I’m a third-year Computer Science student at PUC Chile. I have knowledge in data structures, algorithms, web development, and computer networks.
@@ -53,17 +55,17 @@
 
 
  <!-- Sección: About Me -->
-<section id="about" class="container my-5 py-5">
+<section id="about" class="container d-flex vh-100 justify-content-center align-items-center  my-5 py-5 ">
   <div class="row align-items-center">
     
     <!-- Imagen -->
-    <div class="col-md-4 text-center mb-4 mb-md-0">
+    <div class="col text-center mb-4 mb-md-0">
       <img src="assets/img/profile.jpg" alt="Profile picture" class="img-fluid rounded-circle shadow profile-pic" style="max-width: 250px;">
     </div>
     
     <!-- Texto -->
     <div class="col-md-8 text-light">
-      <h2 class="fw-bold mb-3">🧠 About Me</h2>
+      <h2 class="fw-bold mb-4">🧠 About Me</h2>
       <p>
         Hi! I'm Esteban, a passionate Computer Science student at PUC Chile.
         I love solving problems through code, and I'm always trying to learn new technologies and build creative things.
@@ -78,22 +80,65 @@
 
 
 <!-- Sección: Canal de YouTube -->
-<section id="channel" class="container text-center my-5 py-5">
-  <h2 class="mb-3 fw-bold">🎸 My YouTube Channel</h2>
-  <p class="text-light mb-4" style="max-width: 600px; margin: 0 auto;">
-    I post rock and anime covers 🎤🎸 — check them out and consider subscribing if you enjoy that kind of music!
-  </p>
-  <a href="https://www.youtube.com/@newcovers17" target="_blank" class="btn btn-danger btn-lg mt-2">
-    <i class="bi bi-youtube me-2"></i> Visit Channel
-  </a>
+<section id="channel" class="container text-center d-flex vh-100 justify-content-center align-items-center my-5 py-5">
+  <div class = "row align-items-center">
+    <div class="col-md-6 mb-4">
+      <h2 class="mb-3 fw-bold">🎸 New Covers</h2>
+      <p class="text-light mb-4" style="max-width: 600px; margin: 0 auto;">
+          I post rock and anime covers 🎤🎸 — check them out and consider subscribing if you enjoy that kind of music!
+        </p>
+        <a href="https://www.youtube.com/@newcovers17" target="_blank" class="btn btn-danger btn-lg mt-2">
+            <i class="bi bi-youtube me-2"></i> Visit Channel
+        </a>
+    </div>
+
+    <div class="col-md-6">
+      <img src="assets/img/channel.jpg" alt="YouTube Channel" class="img-fluid shadow" style="max-width: 100%;">
 </section>
 
-<br>
-<br>
 
+<!-- <section id="contact" class="container text-center my-5 py-5">
+    <div class="row">
+        <div class="col-md-12 text-center mb-4">
+            <h2 class="mb-3 fw-bold">Please, </h2>
+            
+            <a href="mailto:esteban.ortega@uc.cl" class="  mt-2">
+                <i class="bi bi-envelope me-2"></i> Email
+            </a>
+        </div>
+    </div>
+
+</section>" -->
+
+<!-- Sección: Contact Me -->
 <section id="contact" class="container text-center my-5 py-5">
+  <h2 class="fw-bold mb-4">📬 Contact Me</h2>
+  <p class="text-light mb-4" style="max-width: 600px; margin: 0 auto;">
+    If you'd like to connect, collaborate or just say hi — I'm always open to talk!
+  </p>
 
-</section>"
+  <div class="d-flex justify-content-center gap-4 flex-wrap">
+    <!-- GitHub -->
+    <a href="https://github.com/EstebanKiito" target="_blank" class="text-white fs-2">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/esteban._.d._.luffy/" target="_blank" class="text-white fs-2">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/esteban-ortega-moraga-5bb119361" target="_blank" class="text-white fs-2">
+      <i class="bi bi-linkedin"></i>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:esteban.ortega@uc.cl" class="text-white fs-2">
+      <i class="bi bi-envelope-fill"></i>
+    </a>
+  </div>
+</section>
 
 <!-- Seccion: Footer -->
     <footer class="text-center py-3">

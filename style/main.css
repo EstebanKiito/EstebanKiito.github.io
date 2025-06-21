@@ -18,8 +18,13 @@ body {
   background-color: #131325;
 }
 
+.navbar-brand:hover {
+  color: #8cc3b6 !important;
+}
+
 .nav-link:hover {
-  color: #32443a !important;
+  color: #8cc3b6 !important;
+  border-bottom: #84fcd4 1px solid !important;
 }
 
 .border-green {
@@ -33,4 +38,31 @@ body {
 .profile-pic {
   border-radius: 50%;
     width: 250px;
+}
+
+.bi-github {
+  color: #308f7a;
+}
+
+.bi-github:hover {
+  color: #84fcd4;
+}
+
+.bi-instagram {
+  color: #308f7a;
+}
+.bi-instagram:hover {
+  color: #84fcd4;
+}
+.bi-linkedin {
+  color: #308f7a;
+}
+.bi-linkedin:hover {
+  color: #84fcd4;
+}
+.bi-envelope-fill {
+  color: #308f7a;
+}
+.bi-envelope-fill:hover {
+  color: #84fcd4;
 }
